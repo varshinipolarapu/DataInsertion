@@ -59,6 +59,4 @@ This script can be executed in:
 - **Azure Data Studio**
 - **MySQL Workbench** (replace `IDENTITY` with `AUTO_INCREMENT`)
 - **PostgreSQL** (use `SERIAL` or `GENERATED` for auto-increment)
-
-
-
+- **Microsoft
