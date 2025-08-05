@@ -1,4 +1,4 @@
-# SQL Script: Products Table with CRUD and Data Handling
+# SQL Script: Handling Missing Values
 
 ## 📝 Description
 
@@ -12,8 +12,6 @@ The script focuses on the following:
 3. Updating specific records using `UPDATE` with a `WHERE` condition.
 4. Deleting specific records using `DELETE` with a `WHERE` condition.
 
----
-
 ## 🗃️ Table Structure
 
 **Table Name:** `Products`
@@ -25,8 +23,6 @@ The script focuses on the following:
 | `Category`     | `VARCHAR(50)`    | Product category (**nullable**)          |
 | `Price`        | `DECIMAL(10,2)`  | Product price (**default = 0.00**)       |
 | `StockQuantity`| `INT`            | Quantity in stock (**default = 0**)      |
-
----
 
 ## ⚙️ Operations Performed
 
@@ -57,6 +53,5 @@ This script can be executed in:
 
 - **Microsoft SQL Server**
 - **Azure Data Studio**
-- **MySQL Workbench** (replace `IDENTITY` with `AUTO_INCREMENT`)
-- **PostgreSQL** (use `SERIAL` or `GENERATED` for auto-increment)
-- **Microsoft
+- **MySQL Workbench**
+- **PostgreSQL** 
